@@ -1,0 +1,256 @@
+/*Halaman Utama*/
+
+.index-body {
+    font-family: "DM Serif Display", sans-serif;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background-image: url('alam.jpeg'); /* Ubah 'alam.jpeg' menjadi nama file gambar Anda */
+    background-size: cover; /* Menyesuaikan ukuran gambar dengan area body */
+    background-position: center; /* Posisi gambar di tengah */
+    background-blend-mode: multiply; /* Menggunakan mode campuran untuk menyatukan latar belakang dengan konten */
+}
+
+.quote {
+    font-family: 'Concert One'; 
+    font-size: 25px; /* Ubah ukuran font menjadi lebih besar */
+    font-style: italic; /* Gaya font */
+    text-align: center; /* Penataan teks */
+    margin-top: 20px; /* Jarak dari atas */
+    color: #ffffff; /* Ubah warna font menjadi warna yang diinginkan */
+}
+
+.concert-one-regular {
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+header {
+    background-color: #436850;
+    color: #c0e3c8;
+    padding: 20px;
+    text-align: center;
+}
+
+.welcome-heading {
+    font-size: 27px;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #ADBC9F;
+    padding: 20px;
+}
+
+.menu-item {
+    padding: 15px 30px;
+    border: 2px solid #779267;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: #333;
+}
+
+.menu-item:hover {
+    background-color: #FBFADA;
+}
+
+.menu-item:hover a {
+    color: #B0A695;
+}
+
+.menu-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px; /* Menurunkan letak foto */
+    margin-right: 50px; /* Menggeser letak foto ke kanan sedikit */
+}
+
+.frame {
+    width: 250px; /* Lebar frame */
+    height: 190px; /* Tinggi frame */
+    border: 5px solid #779267; /* Ukuran dan warna frame */
+    border-radius: 10px; /* Membuat sudut frame melengkung */
+    overflow: hidden; /* Mengatur agar foto tetap di dalam frame */
+    margin-right: 20px; /* Jarak antara frame dan teks */
+}
+
+.photo {
+    width: 100%; /* Foto akan mengisi seluruh area frame */
+    height: 100%; /* Tinggi akan mengisi seluruh area frame */
+    object-fit: cover; /* Mengatur agar foto tidak terdistorsi */
+}
+
+
+/* Halaman Galerry */
+
+.gallery-header h1 {
+    text-align: center;
+    color: #c0e3c8;
+    margin-top: 20px; /* Menambahkan margin atas */
+    margin-bottom: 20px; /* Menambahkan margin bawah */
+}
+
+/* Reset margin dan padding untuk html dan body */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* Gaya untuk body galeri */
+.gallery-body {
+    background-color: #FBFADA; /* Warna latar belakang body galeri */
+    padding: 20px;
+    height: 100%; /* Menetapkan tinggi ke 100% */
+    margin: 0; /* Menghapus margin */
+}
+
+/* Gaya untuk container gambar */
+.gallery-body > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Gaya untuk gambar */
+.gallery-body img {
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+/* Gaya saat gambar dihover */
+.gallery-body img:hover {
+    transform: scale(1.05);
+}
+
+
+
+/*Halaman Blog"
+
+/* Reset margin dan padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Gaya untuk body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FBFADA;
+}
+
+/* Gaya untuk header */
+.blog-header {
+    background-color: #436850;
+    color: #c0e3c8;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Gaya untuk judul blog */
+.blog-header h1 {
+    font-size: 32px;
+}
+
+/* Gaya untuk artikel */
+article {
+    background-color: #96aa8e;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Gaya untuk judul artikel */
+article h2 {
+    color: #233529;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Gaya untuk paragraf dalam artikel */
+article p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+/* Gaya untuk tautan dalam artikel */
+article a {
+    color: #1800ef;
+    text-decoration: none;
+}
+
+/* Gaya untuk tautan saat dihover */
+article a:hover {
+    text-decoration: underline;
+}
+
+/* Gaya untuk garis pembatas */
+hr {
+    border: none;
+    border-top: 1px solid #070303;
+    margin: 20px 0;
+}
+
+
+/*Halaman Contact*/
+
+/* Reset margin dan padding untuk elemen HTML dan body */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style untuk body dengan kelas contact-body */
+.contact-body {
+    font-family: Arial, sans-serif;
+    background-color: #FBFADA;
+    padding: 20px;
+}
+
+/* Style untuk judul */
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Style untuk daftar kontak */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+niga
+/* Style untuk setiap item kontak */
+li {
+    margin-bottom: 20px;
+    padding-bottom: 10px; /* Ruang di bawah setiap item kontak */
+    border-bottom: 1px solid #1fb521; /* Garis pembatas */
+}
+
+/* Style untuk tautan */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Style untuk tautan saat dihover */
+a:hover {
+    text-decoration: underline;
+}
+
+/* Style untuk tautan yang merupakan judul kontak  */
+strong {
+    font-weight: bold;
+}
